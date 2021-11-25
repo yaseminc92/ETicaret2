@@ -1,0 +1,173 @@
+.facebook {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: inline-block;
+  padding-top: 7px;
+}
+
+.facebook:hover {
+  background: #3b5998;
+}
+
+.facebook:hover .facebook-logo {
+  background-image: url(../img/facebook_hover.png);
+}
+
+.facebook .facebook-logo {
+  width: 15px;
+  height: 15px;
+  background-size: contain;
+  margin: auto;
+  background-image: url(../img/facebook.png);
+}
+
+.twitter {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: inline-block;
+  padding-top: 7px;
+}
+
+.twitter:hover {
+  background: #1DA1F2;
+}
+
+.twitter:hover .twitter-logo {
+  background-image: url(../img/twitter_hover.png);
+}
+
+.twitter .twitter-logo {
+  width: 15px;
+  height: 15px;
+  background-size: contain;
+  margin: auto;
+  background-image: url(../img/twitter.png);
+}
+
+.instagram {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: inline-block;
+  padding-top: 7px;
+}
+
+.instagram:hover {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+
+.instagram:hover .instagram-logo {
+  background-image: url(../img/instagram_hover.png);
+}
+
+.instagram .instagram-logo {
+  width: 15px;
+  height: 15px;
+  background-size: contain;
+  margin: auto;
+  background-image: url(../img/instagram.png);
+}
+
+.basket {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: inline-block;
+  padding-top: 7px;
+}
+
+.basket:hover {
+  background: #333333;
+}
+
+.basket:hover .basket-logo {
+  background-image: url(../img/basket_hover.png);
+}
+
+.basket .basket-logo {
+  width: 15px;
+  height: 15px;
+  background-size: contain;
+  margin: auto;
+  background-image: url(../img/basket.png);
+}
+
+.search {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: inline-block;
+  padding-top: 7px;
+}
+
+.search:hover {
+  background: #333333;
+}
+
+.search:hover .search-logo {
+  background-image: url(../img/search_hover.png);
+}
+
+.search .search-logo {
+  width: 15px;
+  height: 15px;
+  background-size: contain;
+  margin: auto;
+  background-image: url(../img/search.png);
+}
+
+.list {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: inline-block;
+  padding-top: 7px;
+}
+
+.list:hover {
+  background: #333333;
+}
+
+.list:hover .list-logo {
+  background-image: url(../img/list_hover.png);
+}
+
+.list .list-logo {
+  width: 15px;
+  height: 15px;
+  background-size: contain;
+  margin: auto;
+  background-image: url(../img/list.png);
+}
+
+.default-nav {
+  margin: auto;
+  width: 50%;
+}
+
+.closed-category {
+  position: fixed;
+  width: 100%;
+  height: auto;
+  background-color: white;
+}
+
+.closed-category ul {
+  list-style-image: url(../img/right-arrow-angle.png);
+}
+
+.closed-category li {
+  margin-top: 7px;
+}
+
+.closed-category li a {
+  color: black;
+  text-decoration: none;
+}
+
+.closed-category li a:hover {
+  color: orange;
+}
+/*# sourceMappingURL=main.css.map */

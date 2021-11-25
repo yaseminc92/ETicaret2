@@ -1,0 +1,71 @@
+@mixin logo-parent($background-color)
+    width: 32px
+    height: 32px
+    border-radius: 50%
+    display: inline-block
+    padding-top: 7px
+    &:hover
+        background: $background-color
+        
+@mixin logo($background-image)
+    width: 15px
+    height: 15px
+    background-size: contain
+    margin: auto
+    background-image: $background-image   
+
+.facebook
+    @include  logo-parent(#3b5998)
+    &:hover .facebook-logo
+        background-image: url(../img/facebook_hover.png)
+    .facebook-logo
+        @include logo($background-image: url(../img/facebook.png))
+.twitter
+    @include  logo-parent(#1DA1F2)
+    &:hover .twitter-logo
+        background-image: url(../img/twitter_hover.png)
+    .twitter-logo
+        @include logo($background-image: url(../img/twitter.png))            
+.instagram
+    @include  logo-parent(radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%))
+    &:hover .instagram-logo
+        background-image: url(../img/instagram_hover.png)
+    .instagram-logo
+        @include logo($background-image: url(../img/instagram.png))
+.basket
+    @include  logo-parent(#333333)
+    &:hover .basket-logo
+        background-image: url(../img/basket_hover.png)
+    .basket-logo
+        @include logo($background-image: url(../img/basket.png))
+.search
+    @include  logo-parent(#333333)
+    &:hover .search-logo
+        background-image: url(../img/search_hover.png)
+    .search-logo
+        @include logo($background-image: url(../img/search.png))
+.list
+    @include  logo-parent(#333333)
+    &:hover .list-logo
+        background-image: url(../img/list_hover.png)
+    .list-logo
+        @include logo($background-image: url(../img/list.png))
+
+.default-nav
+    margin: auto
+    width: 50%
+.closed-category 
+    position: fixed
+    width: 100%
+    height: auto
+    background-color: white
+    ul
+        
+        list-style-image: url(../img/right-arrow-angle.png)
+    li
+        margin-top: 7px
+        a
+            color: black
+            text-decoration: none
+            &:hover
+                color: orange
